@@ -1,0 +1,34 @@
+// DVLA HEADER
+// Modifies the styles found in: govuk_modules/govuk_template/assets/stylesheets/govuk-template.css
+
+#global-header {
+  background-color: $white;
+}
+
+#global-header .header-wrapper {
+  background-color: $white;
+}
+
+#global-header #logo {
+  color: $text-colour;
+}
+
+// Proposition name (name of service)
+@include media(desktop) {
+  #global-header .header-proposition {
+    text-align: right;
+  }
+
+}
+
+#global-header .header-proposition #proposition-name {
+  color: $text-colour;
+  font-family: $Helvetica-Regular;
+  font-weight: normal;
+}
+
+// Global header bar
+#global-header-bar {
+  height: 3px;
+  background-color: $lime-green;
+}
