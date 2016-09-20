@@ -25,3 +25,11 @@
 }
 
 // Add extra styles here, or re-organise the Sass files in whichever way makes most sense to you
+
+// Import DVLA styles
+@import 'dvla-typography';
+@import 'dvla-forms';
+@import 'dvla-buttons';
+@import 'dvla-breadcrumbs';
+@import 'dvla-palette';
+@import 'dvla-header';
