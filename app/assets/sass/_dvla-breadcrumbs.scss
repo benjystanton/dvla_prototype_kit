@@ -1,0 +1,6 @@
+// DVLA BREADCRUMBS
+// Modifies the styles found in: govuk_modules/govuk_frontend_toolkit/stylesheets/design-patterns/_breadcrumbs.scss
+
+.breadcrumbs li {
+  font-family: $Helvetica-Regular; // This font stack is defined here: govuk_modules/govuk_frontend_toolkit/stylesheets/_font_stack.scss
+}
