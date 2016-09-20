@@ -1,0 +1,8 @@
+// DVLA BUTTONS
+// Modifies the styles found in: govuk_modules/govuk-elements-sass/elements/_buttons.scss
+
+// Start now buttons
+.button-start,
+.button-get-started {
+  font-family: $Helvetica-Regular; // This font stack is defined here: govuk_modules/govuk_frontend_toolkit/stylesheets/_font_stack.scss
+}
